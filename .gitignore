@@ -1,0 +1,5 @@
+caffe
+tensorflow
+data
+models
+*.pyc
