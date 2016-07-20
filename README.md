@@ -5,23 +5,25 @@ first asking Bhargava or Joe.
 
 # Layout
 root/
-  caffe/ <- local install of caffe
-  models/ <- where model definitions and trained weight files go
-  tarballs/ <- zipped original images for 2 datasets, just in case
-  tensorflow/ <- local tensorflow install in virtualenv
-  origdata/
-    HandCam/
+  caffe/ <- local install of caffe  
+  models/ <- where model definitions and trained weight files go  
+  tarballs/ <- zipped original images for 2 datasets, just in case  
+  tensorflow/ <- local tensorflow install in virtualenv   
+  origdata/  
+    HandCam/  
+      Images/  
+      Anno_HandCam.json  
+    ImageNet/ <- *curated imagenet*  
+      Images/  
+      Anno_ImageNet.json  
+    DeepGrasping/  
       Images/
-      Anno_HandCam.json
-    ImageNet/ <- *curated imagenet*
-      Images/
-      Anno_ImageNet.json
-    DeepGrasping/ <- haven't reorganized yet, will make match other data dirs
-    AllImages/ <- symlink all files under Images above here
+      Anno_DeepGrasping.json  
+    AllImages/ <- symlink all files under Images above here    
     
-   trainingdata/ <- preprocessed data for training nets, with train and test text files
-       train/
-       val/
+   trainingdata/ <- preprocessed data for training nets, with train and test text files  
+       train/  
+       val/  
 
 # Networks
 Using vgg{16,19} and resnet networks, both recent ilsrvc winners

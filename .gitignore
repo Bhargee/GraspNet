@@ -1,9 +1,7 @@
 caffe
 tensorflow
-data
-models
 *.pyc
 tarballs
-*data
 *lmdb
 *.txt
+*.caffemodel
