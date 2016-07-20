@@ -4,6 +4,7 @@ Code, data, and models for graspnet project v2. Please do not touch without
 first asking Bhargava or Joe.
 
 # Layout
+```
 root/
   caffe/ <- local install of caffe  
   models/ <- where model definitions and trained weight files go  
@@ -24,7 +25,7 @@ root/
    trainingdata/ <- preprocessed data for training nets, with train and test text files  
        train/  
        val/  
-
+```
 # Networks
 Using vgg{16,19} and resnet networks, both recent ilsrvc winners
 
