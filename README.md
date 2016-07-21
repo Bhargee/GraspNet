@@ -3,7 +3,16 @@
 Code, data, and models for graspnet project v2. Please do not touch without
 first asking Bhargava or Joe.
 
+# Instructions
+1. install caffe locally in this repository, under `caffe`
+2. copy relevant data in the correct subdirectories under origdata
+3. download pretrained models to correct subdirectories in models
+4. read `preprocess_data.py`, make modifications as necessary, and run
+5. run `create_dataset.sh`
+6. run `make_dataset_mean.sh`
+
 # Layout
+After steps 1 and 2 above are done, the project structure should look like - 
 ```
 root/
   caffe/ <- local install of caffe  
